@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<!--the contact part-->
+<body class="bg-slate-600 ">
+    <div class="flex-grow flex items-center justify-center p-8">
+        <div class="bg-slate-400 rounded-lg shadow-md p-8 max-w-xl w-full">
+            <h1 class="text-2xl font-bold text-center mb-6">Welcome to my contact page</h1>
+            <form action="#" method="POST">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Your fullname</label>
+                    <input type="text" id="name" name="name" required
+                           class="mt-1 block w-full p-3  />
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" required
+                           class="mt-1 block w-full p-3 border border-gray-300 />
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" required
+                              class="mt-1 block w-full p-3 border border-gray-300 "></textarea>
+                </div>
+                <div>
+                    <button type="submit"
+                            class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded-md transition duration-200">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- the footer part-->
+    <footer class="bg-gray-900 text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2024 rayan company All rights reserved.      <div class="flex justify-center space-x-4">
+                <a href="#" class="hover:text-blue-400">Privacy Policy</a>
+           
+                <a href="#" class="hover:text-blue-400">Terms of Service</a>
+                          <a href="#" class="hover:text-blue-400">Contact us through 0732456773/07883212345
+                             email Rayanjimcale45@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
